@@ -183,4 +183,4 @@ if __name__ == "__main__":
     app.mainloop()
     logger.info("Приложение остановленно")
     # pyinstaller --add-data "image;image" --onefile application.py
-    # pyinstaller --noconfirm --onedir --windowed --add-data "D:\pythonProject\pro_hi_tech_ref\.venv\Lib\site-packages\customtkinter;customtkinter\" --add-data "image;image"  application.py
+    # pyinstaller --noconfirm --onedir --windowed --add-data ".\.venv\Lib\site-packages\customtkinter;customtkinter\" --add-data "image;image"  application.py
